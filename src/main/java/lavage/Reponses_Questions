@@ -5,8 +5,8 @@ bonne incrémentation
 
 Dans la classe "PileAssiette" nous avons le mot clés : "Synchronized"
 qui permet que 2 fonctions n'utilise pas un objet au même moment.
-
-
+Pas de crash car personne (aucun objet) n'attends : le remplissage de pile est instantané
+Remplissage à l'infini car il n'y a pas d'éléments sur la fonction full
 
 Question 2 :
 Problème avec l'essuyeur
