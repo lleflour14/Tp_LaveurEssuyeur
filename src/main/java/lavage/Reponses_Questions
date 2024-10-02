@@ -1,0 +1,16 @@
+Question 1 :
+Pas d'incohérence :
+Pas 2 fois le même numéro d'assiete
+bonne incrémentation
+
+Dans la classe "PileAssiette" nous avons le mot clés : "Synchronized"
+qui permet que 2 fonctions n'utilise pas un objet au même moment.
+
+
+
+Question 2 :
+Problème avec l'essuyeur
+Plusieurs objets (laveur/essuyeur) qui essayent d'acceder en même temps au même objet (Pile d'assietes)*
+N'apparait pas : "Un essuyeur enlève " + assiette + " "
+
+L'essuyeur n'est pas notifié : il reste en "wait"
